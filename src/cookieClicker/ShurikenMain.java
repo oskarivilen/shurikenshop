@@ -15,7 +15,7 @@ import java.io.IOException;
 import java.util.concurrent.ThreadLocalRandom;
 
 import javax.imageio.ImageIO;
-import javax.swing.BorderFactory;
+
 import javax.swing.ImageIcon;
 import javax.swing.JButton;
 import javax.swing.JFrame;
@@ -23,6 +23,8 @@ import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JTextArea;
 import javax.swing.Timer;
+
+import cookieClicker.Music;
 
 public class ShurikenMain {
 
@@ -63,8 +65,14 @@ public class ShurikenMain {
 
 		createFont();
 		createUI();
+		
+		Music sound = new Music();
+        sound.play();
+		
 
 	}
+
+	
 
 	public void createFont() {
 
@@ -72,6 +80,8 @@ public class ShurikenMain {
 		font2 = new Font("Comic Sans MS", Font.PLAIN, 15);
 
 	}
+	
+	
 
 	public void createUI() {
 
@@ -87,6 +97,10 @@ public class ShurikenMain {
 			GridBagConstraints gbc = new GridBagConstraints();
 			gbc.gridwidth = GridBagConstraints.REMAINDER;
 
+			
+			
+			
+			
 			window.setLayout(null);
 
 			JPanel shurikenPanel = new JPanel();
