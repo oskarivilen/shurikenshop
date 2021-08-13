@@ -3,6 +3,9 @@ Clicking game where the main objective is to create as much shurikens as fast as
 
 Upgrade your shop with workers and tools to make shurikens quicker.
 
+![Screenshot](shurikentitle.jpg)
+
+
 Created with Java. 
 
 Music by AShamaluevMusic.
